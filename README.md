@@ -31,7 +31,7 @@ When the user chooses to register, the following validation is applied to their 
 
 - Email/username:
     - Must contain "@" followed by a "."
-        - Example: sherlock@gmail.com, nothing@yahoo.in
+        - Example: kishor@gmail.com, nothing@yahoo.in
     - Should not contain "." immediately after "@"
         - Example: my@.in
     - Should not start with special characters or numbers
