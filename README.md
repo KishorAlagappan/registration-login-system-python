@@ -10,6 +10,7 @@ This project is a simple registration and login system implemented in Python, us
 - Forgotten password retrieval: The system allows the user to retrieve their password by providing their username.
 
 
+
 ## Requirements
 - Python-3
 
