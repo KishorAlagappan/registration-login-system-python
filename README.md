@@ -1,3 +1,4 @@
+
 # Registration-and-Login-System using python along with File handling
 
 
@@ -8,6 +9,7 @@ This project is a simple registration and login system implemented in Python, us
 - User registration: The system validates the email/username and password input, and stores the user's credentials in a file.
 - User login: The system checks the user's input against the data stored in the file, and allows access if the credentials match.
 - Forgotten password retrieval: The system allows the user to retrieve their password by providing their username.
+
 
 
 
