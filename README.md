@@ -4,7 +4,6 @@
 
 
 
-
 This project is a simple registration and login system implemented in Python, using file handling.
 
 ## Features
