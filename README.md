@@ -1,7 +1,6 @@
 
 # Registration-and-Login-System using python along with File handling
 
-
 This project is a simple registration and login system implemented in Python, using file handling.
 
 ## Features
