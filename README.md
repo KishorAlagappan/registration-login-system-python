@@ -52,8 +52,6 @@ This project presents a secure and user-friendly Registration-and-Login-System i
 - **Python Programming**: Developed the entire system using Python.
 - **File Handling**: Implemented secure data storage and retrieval using file handling techniques.
 - **Data Validation**: Ensured user inputs met specific criteria for registration and login.
-- **User Authentication**: Created a reliable authentication system to verify user identities.
-- **Command-Line Interface**: Utilized a command-line interface for user interaction.
 
 ## Contribution
 Contributions and suggestions are welcome! Please open an issue or pull request if you have any feedback.
