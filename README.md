@@ -23,7 +23,7 @@ This project presents a secure and user-friendly Registration-and-Login-System i
 - Python 3
 
 ## Usage
-1. Run the script: `Registration_&_Login_System.ipynb`
+1. Run the ipynb file: `Registration_&_Login_System.ipynb`
 2. Choose between registration or login.
 3. Enter your email/username and password as prompted.
    - For registration, valid inputs are stored securely after validation.
