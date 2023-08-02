@@ -1,59 +1,59 @@
+# Registration-and-Login-System using Python with File Handling
 
-# Registration-and-Login-System using python along with File handling
+## Overview
+This project presents a secure and user-friendly Registration-and-Login-System implemented in Python, incorporating file handling techniques. Designed for educational purposes, the system offers user registration, login verification, and password retrieval functionalities, ensuring a seamless user experience.
 
-This project is a simple registration and login system implemented in Python, using file handling.
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Workflow](#workflow)
+   - [Stage 1: Registration](#stage-1-registration)
+   - [Stage 2: Data Storage](#stage-2-data-storage)
+   - [Stage 3: Login](#stage-3-login)
+- [Tools & Skills](#tools--skills)
+- [Contribution](#contribution)
 
 ## Features
-- User registration: The system validates the email/username and password input, and stores the user's credentials in a file.
-- User login: The system checks the user's input against the data stored in the file, and allows access if the credentials match.
-- Forgotten password retrieval: The system allows the user to retrieve their password by providing their username.
-
-
-
+- **User Registration**: The system validates email/username and password inputs, storing user credentials securely in a file.
+- **User Login**: User credentials are verified against stored data, granting access upon successful validation.
+- **Forgotten Password Retrieval**: Users can retrieve passwords by providing their username.
 
 ## Requirements
-- Python-3
+- Python 3
+
 ## Usage
-1. Run the script with `python main.py`
-2. Choose the option to register or login.
-3. Follow the prompts to enter your email/username and password.
-4. If you choose to register, the system will validate your input and store your credentials in a file.
-5. If you choose to login, the system will check your input against the data stored in the file.
-6. If your credentials match, you will be granted access. If not, you will be prompted to register or retrieve your password.
+1. Run the script: `Registration_&_Login_System.ipynb`
+2. Choose between registration or login.
+3. Enter your email/username and password as prompted.
+   - For registration, valid inputs are stored securely after validation.
+   - For login, credentials are cross-checked against stored data.
 
-## Note
-- This project is for demonstration purposes only and should not be used in a production environment.
+## Workflow
+**Stage 1: Registration**
+- Validate email/username:
+   - Must contain "@" followed by a "."
+   - Cannot have "." immediately after "@"
+   - Should not start with special characters or numbers
+- Validate password:
+   - Must be between 5 and 16 characters
+   - Requires at least one special character, digit, uppercase, and lowercase character
 
-# Workflow
+**Stage 2: Data Storage**
+- Validated username and password securely stored in a file.
 
-## Stage 1: Registration
+**Stage 3: Login**
+- Validate user-provided username and password against stored data.
+   - If credentials do not exist, prompt the user to register.
+   - If "forgot password" is chosen, retrieve the original password based on username (if in file) and allow the user to set a new password.
+   - If no match is found, guide the user to register.
 
-When the user chooses to register, the following validation is applied to their email/username and password:
+## Tools & Skills
+- **Python Programming**: Developed the entire system using Python.
+- **File Handling**: Implemented secure data storage and retrieval using file handling techniques.
+- **Data Validation**: Ensured user inputs met specific criteria for registration and login.
+- **User Authentication**: Created a reliable authentication system to verify user identities.
+- **Command-Line Interface**: Utilized a command-line interface for user interaction.
 
-- Email/username:
-    - Must contain "@" followed by a "."
-        - Example: kishor@gmail.com, nothing@yahoo.in
-    - Should not contain "." immediately after "@"
-        - Example: my@.in
-    - Should not start with special characters or numbers
-        - Example: 123#@gmail.com
-- Password:
-    - Must be between 5 and 16 characters in length
-    - Must contain at least one special character, one digit, one uppercase, and one lowercase character
-
-## Stage 2: Data Storage
-
-Once the username and password are validated, the data is stored in a file.
-
-## Stage 3: Login
-
-When the user chooses to login, the following process is followed:
-
-- Check whether the inputted username and password exist in the file
-- If the credentials do not exist:
-    - Ask the user to go for registration
-- If the user has chosen "forgot password":
-    - Retrieve the original password based on the provided username (if it exists in the file)
-    - Allow the user to provide a new password (if their username matches with the data in the file)
-- If nothing matches in the file:
-    - Ask the user to go for registration (since they do not have an account)
+## Contribution
+Contributions and suggestions are welcome! Please open an issue or pull request if you have any feedback.
