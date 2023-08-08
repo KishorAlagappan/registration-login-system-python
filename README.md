@@ -2,6 +2,7 @@
 ## Overview
 This project presents a secure and user-friendly Registration-and-Login-System implemented in Python, incorporating file handling techniques. Designed for educational purposes, the system offers user registration, login verification, and password retrieval functionalities, ensuring a seamless user experience.
 
+
 ## Table of Contents
 - [Features](#features)
 - [Requirements](#requirements)
